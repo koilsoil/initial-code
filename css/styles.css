@@ -1,0 +1,104 @@
+body {
+  color: #333;
+  font-family: Verdana, sans-serif;
+  /* margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin: 0px; */
+  margin: 0;
+
+}
+
+header {
+  background-color: #efefef;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container {
+  /* background-color: pink; */
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /* align-items: center; flexboxで要素を上下左右中央揃えにする */
+  align-items: center;
+}
+
+.icon {
+  /* background-color: skyblue; */
+}
+
+.icon img {
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  /* solid:実線 */
+  border-color: white;
+}
+
+.info {
+  /* background-color: tomato; */
+  margin-left: 32px;
+}
+
+.info h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.info ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.info ul li {
+  margin-right: 8px;
+}
+
+.works {
+  width: 400px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+}
+
+.works > h1 {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.works > section {
+  margin-bottom: 60px;
+}
+
+.works > section > h1 {
+  /* font-weight:文字の太さ; */
+  font-weight: normal;
+}
+
+.works p {
+  /* line-height: 行の高さ  px or 数字　数字は文字の何倍か
+     (line-height - font-size) / 2  が行間として上下に均等に割り振られる; */
+  line-height: 1.8;
+}
+
+footer  p {
+  /* text-align: ブロックコンテナ内の行の揃え位置・均等割付を指定する際に使用; */
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: gray;
+}
